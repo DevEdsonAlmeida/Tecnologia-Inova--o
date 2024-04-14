@@ -1,0 +1,66 @@
+:root {
+    /*variáveis de css*/
+    --vinho: #6a283e;
+    --primary: #d2f497;
+    --black: #000000;
+    --nude: #eeedec;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --white: #ffffff;
+}
+
+.imgTI{
+    width: 30px;
+    height: 30px;
+}
+
+
+.navBarCor{
+    background-color: var(--vinho);
+    color: var(--nude);
+}
+
+.fundoSection{
+    background-color: var(--nude);
+    
+    }
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.corBotao{
+    background-color: var(--vinho);
+    color: var(--white);
+}
+
+.border-right{
+    border-right: 1px solid transparent;
+}
+
+.border-bottom {
+    border-bottom: 1px solid transparent;
+}
+
+.corH2, .corP, .corLabel{
+    color: var(--vinho);
+}
+
+.corP, .corMain{
+    background-color: var(--nude);
+    
+    
+}
+
+
+
+.fundoFooter{
+    background-color: var(--vinho);
+    color: var(--white);
+    
+}
+
+.corH1, .corP{
+    color: var(--vinho);
+}

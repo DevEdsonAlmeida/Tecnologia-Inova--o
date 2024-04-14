@@ -10,15 +10,15 @@
       rel="stylesheet"
     />
     <!-- Estilos personalizados -->
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/servicos.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark navBarCor">
         <div class="container">
-          <a class="navbar-brand" href="/index.html">Tecnologia</a>
+          <a class="navbar-brand" href="/index.html"><img class="imgTI" src="/assets/images/ti.png" alt="foto ti"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -31,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="/index.html">Home</a>
               </li>
@@ -45,29 +45,78 @@
                 <a class="nav-link" href="/pages/contato.html">Contato</a>
               </li>
             </ul>
+            <form id="searchForm" class="form-inline my-2 my-lg-0">
+              <input
+                id="searchInput"
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                id="searchButton"
+                class="btn btn-outline-light my-2 my-sm-0"
+                type="button"
+              >
+                <img
+                  src="https://icons.getbootstrap.com/assets/icons/search.svg"
+                  alt="Buscar"
+                  width="20"
+                  height="20"
+                />
+              </button>
+            </form>
           </div>
         </div>
       </nav>
+      <!-- Fim do Navbar -->
     </header>
 
     <!-- Conteúdo da Página Serviços -->
-    <div class="container mt-4">
-      <h2 class="text-center">Nossos Serviços</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ex
-        et justo elementum, sed vestibulum tortor tincidunt. Nam vehicula tellus
-        nec feugiat finibus. Nulla facilisi. Nam id condimentum mi, sit amet
-        maximus enim. Nulla non dictum libero. Integer auctor libero et libero
-        luctus, eget congue ligula consequat. In aliquam neque eu magna sodales
-        fermentum. Donec fermentum vestibulum lorem, sit amet tincidunt nisi
-        vehicula non. Morbi tempor fringilla metus, nec placerat ex auctor sit
-        amet. Morbi ut tempus ex. Nam non ex vitae velit volutpat faucibus ut
-        vitae ex. Nulla facilisi. Sed et pharetra justo.
-      </p>
-    </div>
+    <main class="fundoMain">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="text-center mt-3 corH2">
+              Como a tecnologia pode contribuir para a inovação em serviços?
+            </h2>
+            <p class="text-justify mt-4 corP">
+              A depender do serviço que será otimizado na empresa, há diferentes
+              recursos tecnológicos uteis para promover a inovação. Assim, se o
+              objetivo é tornar o processamento ou a troca de informações
+              internas e externas entre os diferentes setores do negócio, o Big
+              Data — tecnologia que possibilita o tratamento eficiente de grande
+              volumes de dados — consiste em uma ótima opção. Essa ferramenta
+              também contribui para a tomada de decisões dos gestores. Se o
+              serviço a ser inovado está relacionado ao atendimento aos clientes
+              da companhia, a tecnologia oferece diferentes alternativas. Com a
+              automação empresarial, a empresa pode investir no uso de chatbot,
+              um assistente virtual automático que utiliza a inteligência
+              artificial para trocar mensagens com o consumidor. Outra opção é o
+              omnichannel, recurso que possibilita que todos os canais de
+              contato do cliente integrem-se a uma única central de atendimento.
+              A inovação em serviços também deve ser aplicada aos fluxos de
+              tramitação de documentos e ao fechamento de negócios junto ao
+              cliente. Dessa maneira, a assinatura eletrônica torna-se uma
+              ferramenta indispensável na hora de celebrar contratos em ambiente
+              digital, tornando o processo muito mais simples, organizado,
+              rápido e cômodo, principalmente para o consumidor. Inovar é uma
+              ação crucial para que um negócio atinja e seja capaz de manter o
+              sucesso. Nesse sentido, a inovação em serviços constitui uma
+              prática obrigatória, já que esse tipo de inovação impacta
+              positivamente a imagem da empresa, aumenta a sua produtividade e
+              contribui de forma considerável para a satisfação dos seus
+              clientes. Para que esse patamar seja alcançado, investir em
+              tecnologia é pré-requisito. Vamos utilizar a tecnologia para
+              inovar os serviços de sua empresa? Entre em contato com a
+              <a href=""> TecnoShell </a>e conheça recursos super eficientes!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
-    <!-- Rodapé -->
-    <footer class="footer bg-dark text-light text-center py-4">
+    <footer class="footer fundoFooter text-light text-center py-3">
       <div class="container">
         <p>Siga-nos nas redes sociais:</p>
         <a href="#"
@@ -98,9 +147,7 @@
             width="30"
             height="30"
         /></a>
-        <p class="mt-3">
-          &copy; 2024 Bootstrap Example. Todos os direitos reservados.
-        </p>
+        <p class="mt-2">&copy; 2024 Todos os direitos reservados.</p>
       </div>
     </footer>
 

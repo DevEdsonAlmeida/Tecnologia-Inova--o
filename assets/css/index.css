@@ -9,6 +9,11 @@
     --white: #ffffff;
 }
 
+.imgTI{
+    width: 30px;
+    height: 30px;
+}
+
 
 .navBarCor{
     background-color: var(--vinho);
@@ -22,6 +27,10 @@
     padding: 5px; /* Espaçamento interno */
     border-radius: 5px; /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra de fundo */
+}
+
+.corH1, .corP{
+    color: var(--vinho);
 }
 
 
@@ -56,6 +65,3 @@
     
 }
 
-.corH1, .corP{
-    color: var(--vinho);
-}

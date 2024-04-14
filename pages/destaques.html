@@ -10,15 +10,15 @@
       rel="stylesheet"
     />
     <!-- Estilos personalizados -->
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/destaques.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark navBarCor">
         <div class="container">
-          <a class="navbar-brand" href="/index.html">Tecnologia</a>
+          <a class="navbar-brand" href="/index.html"><img class="imgTI" src="/assets/images/ti.png" alt="foto ti"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -31,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="/index.html">Home</a>
               </li>
@@ -45,6 +45,27 @@
                 <a class="nav-link" href="/pages/contato.html">Contato</a>
               </li>
             </ul>
+            <form id="searchForm" class="form-inline my-2 my-lg-0">
+              <input
+                id="searchInput"
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                id="searchButton"
+                class="btn btn-outline-light my-2 my-sm-0"
+                type="button"
+              >
+                <img
+                  src="https://icons.getbootstrap.com/assets/icons/search.svg"
+                  alt="Buscar"
+                  width="20"
+                  height="20"
+                />
+              </button>
+            </form>
           </div>
         </div>
       </nav>
@@ -56,8 +77,8 @@
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="my-5">
-            <h5>Profissionais de TI: o que fazem</h5>
-            <p>
+            <h5 class="corH5">Profissionais de TI: o que fazem</h5>
+            <p class="text-justify corP">
               Em meio a uma revolução digital gigantesca que estamos vivendo,
               mais conhecida como revolução 4.0, empresas como as que possuímos
               no mercado atualmente nunca precisaram tanto da tecnologia em seus
@@ -82,8 +103,8 @@
             </p>
           </div>
           <div class="my-5">
-            <h5>Inovação: o que é</h5>
-            <p>
+            <h5 class="corH5">Inovação: o que é</h5>
+            <p class="text-justify corP">
               Inovação é colocar ação para construir algo novo, apresentar
               mudanças, renovar, transformar situações, criar coisas inéditas ou
               mudar a forma antiga de se fazer algo. Dito dessa forma pode
@@ -100,8 +121,8 @@
             </p>
           </div>
           <div class="my-5">
-            <h5>Como ver quem não me segue de volta no Instagram?</h5>
-            <p>
+            <h5 class="corH5">Como ver quem não me segue de volta no Instagram?</h5>
+            <p class="text-justify corP">
               É possível descobrir quem me segue de volta no Instagram? Essa
               dúvida recorrente pode ser sanada em poucos passos. Apesar de não
               existir uma lista com os perfis que não são recíprocos dentro do
@@ -118,7 +139,7 @@
     </section>
 
     <!-- Rodapé -->
-    <footer class="footer bg-dark text-light text-center py-4">
+    <footer class="footer fundoFooter text-light text-center py-3">
       <div class="container">
         <p>Siga-nos nas redes sociais:</p>
         <a href="#"
@@ -149,9 +170,7 @@
             width="30"
             height="30"
         /></a>
-        <p class="mt-3">
-          &copy; 2024 Bootstrap Example. Todos os direitos reservados.
-        </p>
+        <p class="mt-2">&copy; 2024 Todos os direitos reservados.</p>
       </div>
     </footer>
 

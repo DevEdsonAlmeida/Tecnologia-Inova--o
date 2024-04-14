@@ -1,0 +1,36 @@
+:root {
+    /*variáveis de css*/
+    --vinho: #6a283e;
+    --primary: #d2f497;
+    --black: #000000;
+    --nude: #eeedec;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --white: #ffffff;
+}
+
+.imgTI{
+    width: 30px;
+    height: 30px;
+}
+
+.navBarCor{
+    background-color: var(--vinho);
+    color: var(--nude);
+}
+
+.fundoMain{
+    background-color: var(--nude);
+    
+    
+}
+
+.corH5, .corH2, .corP{
+    color: var(--vinho);
+}
+
+.fundoFooter{
+    background-color: var(--vinho);
+    color: var(--white);
+    
+}
