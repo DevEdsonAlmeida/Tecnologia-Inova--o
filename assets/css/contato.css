@@ -53,14 +53,8 @@
     
 }
 
-
-
 .fundoFooter{
     background-color: var(--vinho);
     color: var(--white);
     
-}
-
-.corH1, .corP{
-    color: var(--vinho);
 }
