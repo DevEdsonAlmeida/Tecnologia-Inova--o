@@ -1,0 +1,61 @@
+:root {
+    /*variáveis de css*/
+    --vinho: #6a283e;
+    --primary: #d2f497;
+    --black: #000000;
+    --nude: #eeedec;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --white: #ffffff;
+}
+
+
+.navBarCor{
+    background-color: var(--vinho);
+    color: var(--nude);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: var(--vinho); /* Cor do texto */
+    background-color: rgba(255, 255, 255, 0.488); /* Cor de fundo com transparência */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra de fundo */
+}
+
+
+.corH2{
+    background-color: var(--vinho);
+    border-bottom: 5px solid var(--black);
+    color: var(--white);
+    font-size: 20px;
+}
+
+
+.separator {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+.fundoSection{
+    background-color: var(--nude);
+    
+    
+}
+
+
+
+.fundoFooter{
+    background-color: var(--vinho);
+    color: var(--white);
+    
+}
+
+.corH1, .corP{
+    color: var(--vinho);
+}
